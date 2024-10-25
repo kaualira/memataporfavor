@@ -40,7 +40,8 @@
 }
 
 .blocologo img {
-    width: 100%;
+    width: 65%;
+    margin-top: 10px;
 }
 
 .navbar-nav {
@@ -81,7 +82,7 @@
 }
 
 .home, .instituicoes, .dinheiro, .voluntario {
-    width: 35px; /* Tamanho padrão das imagens */
+    width: 25px; /* Tamanho padrão das imagens */
     height: auto;
     margin-left: 0;
     transition: width 0.2s; /* Transição suave ao mudar o tamanho */
@@ -92,7 +93,7 @@
 .navbar:hover .instituicoes,
 .navbar:hover .dinheiro,
 .navbar:hover .voluntario {
-    width: 30px; /* Tamanho menor ao passar o mouse sobre a navbar */
+    width: 20px; /* Tamanho menor ao passar o mouse sobre a navbar */
     margin-left: 10px;
     margin-top:0 ;
 }
@@ -106,13 +107,13 @@
 }
 
 .perfil {
-    width: 70%; /* Tamanho da imagem do SEU PERFIL */
+    width: 60%; /* Tamanho da imagem do SEU PERFIL */
     height: auto; /* Mantém a proporção da imagem */
     margin-bottom: 5px;
 }
 
 .navbar:hover .perfil {
-    width: 25%; /* Ajusta a largura ao passar o mouse */
+    width: 15%; /* Ajusta a largura ao passar o mouse */
 }
 
 .navbar:hover .seuperfil {
